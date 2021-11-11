@@ -1,0 +1,12 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+
+minio:
+  url: http://localhost:9000/
+  access-key: minioadmin
+  secret-key: minioadmin
+  bucket-name: lzj-bucket
+  extranet-url: http://localhost:9000/
